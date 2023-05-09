@@ -6,3 +6,312 @@ body
 {
     font-family: 'Sora', sans-serif;
 }
+.content
+{
+    width: 1170px;
+    max-width: calc(100vw - 40px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.row,.row2
+{
+    display: flex;
+}
+a
+{
+    text-decoration: none;
+    color: #C9D2DA;
+}
+
+.btn
+{
+    display: inline-block;
+    min-width: 205px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 49px;
+    background: #2E80CE;
+    border-radius: 22px;
+}
+.desc
+{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #C9D2DA;
+}
+/*========================HEADER======================*/
+
+
+
+header
+{
+    background: #10375C;
+    padding-top: 30px;
+    padding-bottom: 110px;
+}
+header nav .row
+{
+    align-items: center;
+}
+header .logo
+{
+    margin-right: 318px;
+}
+header .logo .image
+{
+    margin-right: 6px;
+}
+header .sign
+{
+    margin-left: auto;
+}
+header .logo .shine
+{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    color: #FFFFFF;
+}
+header .logo .smile
+{
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+header .menu .menu-items
+{
+    margin-right: 42px;
+}
+header .menu .menu-items:hover
+{
+    text-shadow: 0 0 #FFFFFF;
+}
+header .sign .btn
+{
+    min-width: 104px;
+    padding: 8px 20px;
+    margin-left: 28px;
+}
+header .main-header
+{
+    margin-top: 76px;
+}
+header .main2 .row
+{
+    align-items: center;
+}
+header .main-header .main1
+{
+    max-width: 520px;
+    margin-right: 113px;
+}
+header .main-header .main1 .title
+{
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+header .main-header .main1 .desc
+{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #C9D2DA;
+    margin-top: 22px;
+    margin-bottom: 38px;
+}
+header .main-header .main1 .row
+{
+    align-items: center;
+}
+header .main-header .main1 .call
+{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 38px;
+}
+
+
+
+/*========================HEADER======================*/
+
+.hero
+{
+    margin: 170px 0;
+}
+
+.hero .box-title
+{
+    text-align:center;
+    max-width: 468px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+.hero .box-title .title
+{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #10375C;
+    margin-bottom: 18px;    
+}
+.hero .main-hero .box-title .desc
+{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #575F66;
+}
+.hero .main-hero .row
+{
+    justify-content: space-between;
+}
+.hero .main-hero .image
+{
+    width: 50%;
+    height: 570px;
+    object-fit: cover;
+    border-radius: 12px;
+
+}
+.hero .max-list     
+{
+    width: 41%;
+   
+}
+.hero .list .list-item
+{
+    width: 100%;
+    padding: 20px 0 20px 20px;
+
+}
+.hero .main-hero .list .list-item .tooth
+{
+    width: 60px;
+    height: 60px;
+    background-color: #EFF6FD;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    margin-right: 19px;
+    display: flex;
+}
+.hero .list .list-item h3
+{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #10375C;
+}
+.hero .list .more
+{
+    max-width: 350px;
+}
+.hero .list .list-item .desc
+{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #575F66;
+}
+.hero .list .list-item .tooth img
+{
+  margin:auto;
+}
+.hero .btn
+{
+    margin-top: 55px;
+}
+
+
+/*========================FEATURES======================*/
+
+
+
+.features 
+{
+    background: #F6FBFF;
+    padding: 100px 0;
+}
+.features .title
+{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #10375C;
+}
+.features .des
+{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #575F66;
+    max-width: 468px;
+    margin-top: 18px;
+    margin-bottom: 86px;
+}
+.features .item
+{
+    width: calc(100%/3 - 20px);
+    padding: 42px 0 42px 42px;
+    border: 16px solid #EAF6FF;
+    border-radius: 4px;
+}
+.features .row
+{
+    gap:30px;
+    position: relative;
+}
+.features .icon
+{
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+}
+.features .item .title
+{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    color: #10375C;
+    margin-top: 19px;
+    margin-bottom: 28px;
+}
+.features .item .desc
+{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #575F66;
+}
+.features .item .more
+{
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #575F66;
+}
+.features .item:hover 
+{
+    border: 16px solid #2E80CE;
+    transform: translateY(-20px);
+}
+.features .item:hover .more
+{
+    color:#2E80CE;
+}
