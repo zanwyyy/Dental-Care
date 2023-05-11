@@ -198,7 +198,7 @@ header .main-header .main1 .call
 {
     width: 100%;
     padding: 20px 0 20px 20px;
-
+    transition: 0.25s;
 }
 .hero .main-hero .list .list-item .tooth
 {
@@ -222,7 +222,7 @@ header .main-header .main1 .call
 {
     color: white;
     background-color:#2E80CE;
-    
+    transition: 0.25s;
 }
 .hero .list .list-item h3
 {
@@ -285,6 +285,7 @@ header .main-header .main1 .call
     padding: 42px 0 42px 42px;
     border: 16px solid #EAF6FF;
     border-radius: 4px;
+    transition: 0.25s;
 }
 .features .row
 {
@@ -334,7 +335,7 @@ header .main-header .main1 .call
 
 
 
-/*========================FEATURES======================*/
+/*========================Service======================*/
 .services
 {
     padding: 170px 0;
